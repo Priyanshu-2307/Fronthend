@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    height: 5rem;
+    line-height: 5rem; /*It is a trick to that make line-height same as the height so that heading is align prefect to the box.*/
+}
+
+.choice {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    cursor: none;
+    background-color:rgb(255, 0, 0);
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+#user-score {
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#comp-score {
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.message-container {
+    margin-top: 2rem;
+}
+
+#msg {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 5px;
+    border-radius: 0.5rem;
+}
